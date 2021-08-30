@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Teacher- Register</title>
+	<title>Assignment</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -26,107 +26,74 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+
+
+
 </head>
 <body>
-	
-	<div class="limiter">
-		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+<div class="limiter">
+		<div class="container-login100" style="background-image: url('images/exam.jpg');">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
-				<form method="post" action="php/teacherregisterdb.php" class="login100-form validate-form flex-sb flex-w">
-					<span class="login100-form-title p-b-53">
-						Sign In With
+			<form method="post" action="#" class="login100-form validate-form flex-sb flex-w">				
+                    <span class="login100-form-title p-b-53">
+						Class Test
 					</span>
 
-					<a href="#" class="btn-face m-b-20">
-						<i class="fa fa-facebook-official"></i>
-						Facebook
-					</a>
-
-					<a href="#" class="btn-google m-b-20">
-						<img src="images/icons/icon-google.png" alt="GOOGLE">
-						Google
-					</a>
-					
-					<div class="p-t-31 p-b-9">
-						<span class="txt1">
-							Firstname
-						</span>
-					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Firstname is required">
-						<input class="input100" type="text" name="firstname" >
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="p-t-31 p-b-9">
-						<span class="txt1">
-							Lastname
-						</span>
-					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Lastname is required">
-						<input class="input100" type="text" name="lastname" >
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="p-t-31 p-b-9">
-						<span class="txt1">
-							Email
-						</span>
-					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Email is required">
-						<input class="input100" type="text" name="email" >
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="p-t-31 p-b-9">
+                    <div class="p-t-31 p-b-9">
 						<span class="txt1">
 							Subject
 						</span>
 					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Subject is required">
-						<input class="input100" type="text" name="subject" >
-						<span class="focus-input100"></span>
-					</div>
-					
-					<div class="p-t-13 p-b-9">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 select-section">
+                                 <div class="row">
+                                    
+                                    <div class="wrap-input100 validate-input">
+                                       <select class="form-control" name="subject">
+                                          <option>Select</option>
+                                          <option>Mathematics</option>
+                                          <option>Physics</option>
+                                          <option>Chemistry</option>
+                                          <option>Biology</option>
+                                          <option>Computer Science</option>
+                                          <option>English</option>
+                                          <option>Malayalam</option>
+                                          
+                                       </select>
+                                    </div>
+                                 </div>
+                    </div>
+					<div class="p-t-31 p-b-9">
 						<span class="txt1">
-							Password
+								Question Paper
 						</span>
-
-						<a href="#" class="txt2 bo1 m-l-5">
-							Forgot?
-						</a>
 					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="password" >
+					<div class="wrap-input100 validate-input">
+					<a href="qnpaper/qnpenglish.pdf" target="_blank" class="btn-google m-b-20">
+						View
+					</a>
+					</div>
+	
+					
+					<div class="p-t-31 p-b-9">
+						<span class="txt1">
+							After Finish Upload Here
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "File is required">
+						<input class="input100" type="file" name="upload" >
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="container-login100-form-btn m-t-17">
-						<button class="login100-form-btn">
-							Sign In
-						</button>
+						<input type="submit" value="Submit" name="sub" class="login100-form-btn">
+						
 					</div>
 
-					<div class="w-full text-center p-t-55">
-						<span class="txt2">
-							Already a member?
-						</span>
 
-						<a href="teacherlogin.php" class="txt2 bo1">
-							Log In now
-						</a>
-					</div>
-
-					<div class="w-full text-center p-t-55">
-						<a href="index.php" class="txt2 bo1">
-								Home
-						</a>
-					</div>
 				</form>
 			</div>
 		</div>
 	</div>
-	
 
 	<div id="dropDownSelect1"></div>
 	

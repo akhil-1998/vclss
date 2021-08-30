@@ -112,7 +112,7 @@
 							Already a member?
 						</span>
 
-						<a href="login.php" class="txt2 bo1">
+						<a href="studentlogin.php" class="txt2 bo1">
 							Log In now
 						</a>
 

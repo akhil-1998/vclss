@@ -15,7 +15,7 @@ $google_client->setClientId('548493974250-vgfnm803fdoq2hq1pvupvfpiroseig9e.apps.
 $google_client->setClientSecret('jjj1tX4IsZVRe-Shyk_8JfrZ');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('https://localhost/vclass/dashboard/index.php');
+$google_client->setRedirectUri('https://virtual-class.azurewebsites.net/dashboard/index.php');
 
 //
 $google_client->addScope('email');

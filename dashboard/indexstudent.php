@@ -63,11 +63,11 @@ session_start();
                             
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="../assignmentstudent.php">
                                 <i class="fas fa-desktop"></i>Assignments</a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="teststudent.php">
                                 <i class="fas fa-table"></i>Tests</a>
                         </li>
                         <li>
@@ -109,11 +109,11 @@ session_start();
                             
                         </li>
                         <li>
-                            <a href="chart.html">
+                            <a href="../assignmentstudent.php">
                                 <i class="fas fa-desktop"></i>Assignments</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="teststudent.php">
                                 <i class="fas fa-table"></i>Tests</a>
                         </li>
                         <li>
@@ -128,6 +128,10 @@ session_start();
                         <li>
                             <a href="chart.html">
                                 <i class="fas fa-chart-bar"></i>Library</a>
+                        </li>
+                        <li>
+                            <a href="../zoom.php">
+                                <i class="fas fa-desktop"></i>Zoom</a>
                         </li>
                         
                     </ul>
@@ -265,20 +269,7 @@ session_start();
                                             <!-- <img src="images/icon/avatar-01.jpg" alt="John Doe" /> -->
                                         </div>
                                         <div class="content">
-                                                    <?php
-                                                    if($_SESSION["firstname"]) {
-                                                    ?>
-                                                    <?php echo $_SESSION["firstname"]; ?>
-                                                    <?php
-                                                    if($_SESSION["lastname"]) {
-                                                    ?>
-                                                    <?php echo $_SESSION["lastname"]; ?>
-                                                    <?php
-                                                    }else echo "<h1>Please login first .</h1>";
-                                                    ?>
-                                                    <?php
-                                                    }else echo "<h1>Please login first .</h1>";
-                                                    ?>
+                                                    
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -290,43 +281,14 @@ session_start();
                                                 
                                                 <div class="content">
                                                     <h5 class="name">
-                                                    <?php
-                                                    if($_SESSION["firstname"]) {
-                                                    ?>
-                                                    <?php echo $_SESSION["firstname"]; ?>
-                                                    <?php
-                                                    if($_SESSION["lastname"]) {
-                                                    ?>
-                                                    <?php echo $_SESSION["lastname"]; ?>
-                                                    <?php
-                                                    }else echo "<h1>Please login first .</h1>";
-                                                    ?>
-                                                    <?php
-                                                    }else echo "<h1>Please login first .</h1>";
-                                                    ?>
-                                                    </h5>
-                                                    <?php
-                                                    if($_SESSION["email"]) {
-                                                    ?>
-                                                    <?php echo $_SESSION["email"]; ?>
-                                                </div>
-                                                <?php
-                                                    }else echo "<h1>Please login first .</h1>";
-                                                    ?>
+                                                    
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
                                                     <a href="#">
                                                         <i class="zmdi zmdi-account"></i>Account</a>
                                                 </div>
-                                                <div class="account-dropdown__item">
-                                                    <a href="#">
-                                                        <i class="zmdi zmdi-settings"></i>Setting</a>
-                                                </div>
-                                                <div class="account-dropdown__item">
-                                                    <a href="#">
-                                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
-                                                </div>
+                                  
                                             </div>
                                             <div class="account-dropdown__footer">
                                                 <a href="../php/logout.php">

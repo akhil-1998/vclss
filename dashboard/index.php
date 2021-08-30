@@ -63,11 +63,11 @@ session_start();
                             
                         </li>
                         <li>
-                            <a href="chart.html">
+                            <a href="../assignmentstudent.php">
                                 <i class="fas fa-chart-bar"></i>Assignments</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="teststudent.php">
                                 <i class="fas fa-table"></i>Tests</a>
                         </li>
                         <li>
@@ -105,11 +105,11 @@ session_start();
                             
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="../assignmentstudent.php">
                                 <i class="fas fa-desktop"></i>Assignments</a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="teststudent.php">
                                 <i class="fas fa-table"></i>Tests</a>
                         </li>
                         <li>

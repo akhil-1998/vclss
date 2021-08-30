@@ -63,11 +63,11 @@ session_start();
                             
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="../assignmentteacher.php">
                                 <i class="fas fa-desktop"></i>Assignments</a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="testteacher.php">
                                 <i class="fas fa-table"></i>Tests</a>
                         </li>
                         <li>
@@ -109,11 +109,11 @@ session_start();
                             
                         </li>
                         <li>
-                            <a href="chart.html">
+                            <a href="../assignmentteacher.php">
                                 <i class="fas fa-desktop"></i>Assignments</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="testteacher.php">
                                 <i class="fas fa-table"></i>Tests</a>
                         </li>
                         <li>
@@ -128,6 +128,10 @@ session_start();
                         <li>
                             <a href="chart.html">
                                 <i class="fas fa-chart-bar"></i>Library</a>
+                        </li>
+                        <li>
+                            <a href="../zoom.php">
+                                <i class="fas fa-desktop"></i>Zoom</a>
                         </li>
                         
                     </ul>

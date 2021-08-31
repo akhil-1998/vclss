@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Assignment</title>
+	<title>Test</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -88,7 +88,11 @@
 						<input type="submit" value="Submit" name="sub" class="login100-form-btn">
 						
 					</div>
-
+					<div class="w-full text-center p-t-55">
+							<a href="dashboard/indexstudent.php" class="txt2 bo1">
+									Back
+							</a>
+					</div>
 
 				</form>
 			</div>

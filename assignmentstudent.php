@@ -34,7 +34,7 @@
 <div class="limiter">
 		<div class="container-login100" style="background-image: url('images/assignment.jpg');">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
-			<form method="post" action="#" class="login100-form validate-form flex-sb flex-w">				
+			<div  class="login100-form validate-form flex-sb flex-w">				
                     <span class="login100-form-title p-b-53">
 						Assignment
 					</span>
@@ -87,9 +87,13 @@
 						<input type="submit" value="Submit" name="sub" class="login100-form-btn">
 						
 					</div>
+					<div class="w-full text-center p-t-55">
+							<a href="dashboard/indexstudent.php" class="txt2 bo1">
+									Back
+							</a>
+						</div>
 
-
-				</form>
+				</div>
 			</div>
 		</div>
 	</div>

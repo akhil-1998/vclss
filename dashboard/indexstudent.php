@@ -366,8 +366,10 @@ session_start();
                             <div class="col-lg-6">
                                 <div class="au-card recent-report">
                                     <div class="au-card-inner">
-                                        <h3 class="title-2">Assignments</h3>
-                                            
+                                    <h1 class="title-2">Subjects</h1>
+                                        <?php
+                                        include '../php/studentsubjectquery.php';
+                                        ?>
                                         
                                     </div>
                                 </div>
